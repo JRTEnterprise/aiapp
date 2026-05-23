@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo & Metro
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+*.tsbuildinfo
+
+# Native Build Folders
+/ios
+/android
+
+# Environment & Local Files
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS
+.DS_Store
+*.pem
+*.orig.*
+
+# Security/Signing (Critical)
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Miscellaneous
+.kotlin/
